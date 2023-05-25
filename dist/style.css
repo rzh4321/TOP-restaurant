@@ -8,6 +8,7 @@ body {
     --bg-color: #ffde73;
     --yellow: #FFC60B;
     --border-color: #c16a08;
+    font-family: 'Yusei Magic', sans-serif;
 }
 
 .header {
@@ -39,6 +40,7 @@ button {
     background-color: var(--border-color);
     border: 1px solid black;
     border-bottom: none;
+    font-family: 'Yusei Magic', sans-serif;
 }
 
 .main {
@@ -58,20 +60,21 @@ button {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    border: 5px solid var(--border-color);
+    border: 10px solid var(--border-color);
     padding: 30px;
     width: 450px;
     background-color: var(--yellow);
 }
 
 .title {
-    font-size: 60px;
+    font-family: 'Potta One', cursive;
+    font-size: 45px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: row;
     padding: 30px;
-    border: 5px solid var(--border-color);
+    border: 10px solid var(--border-color);
     border-radius: 30%;
     background-color: var(--yellow);
 }
