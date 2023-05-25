@@ -1,9 +1,6 @@
 body {
+    background-image: url('https://img.freepik.com/free-vector/honey-comb-pattern_225004-641.jpg?size=626&ext=jpg');
     margin: 0;
-}
-
-#content {
-    background-image: url('https://img.freepik.com/premium-photo/food-background-menu-with-spices-culinary-ingredients-dark-stone-background-cooking-concepts-culinary-background-top-view-free-space-your-text_234595-2347.jpg');
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -12,7 +9,7 @@ body {
 .header {
     display: flex;
     justify-content: center;
-    align-items: flex-end;
+    align-items: center;
     height: 70px;
     background-color: orange;
 }
@@ -26,19 +23,15 @@ button {
     cursor: pointer;
 }
 
-.container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: orange;
-}
-
 .main {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
     gap: 30px;
+    background-color: orange;
+    padding: 50px;
+    width: 700px;
 }
 
 .card {
@@ -51,7 +44,7 @@ button {
 }
 
 .title {
-    font-size: 30px;
+    font-size: 60px;
 }
 
 .icon {
@@ -64,4 +57,10 @@ button {
     justify-content: center;
     align-items: center;
     flex-direction: row;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
