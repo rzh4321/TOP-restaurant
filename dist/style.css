@@ -1,5 +1,6 @@
 body {
     background-image: url('https://img.freepik.com/free-vector/honey-comb-pattern_225004-641.jpg?size=626&ext=jpg');
+    background-attachment: fixed;
     margin: 0;
     display: flex;
     flex-direction: column;
@@ -101,4 +102,5 @@ button {
 ul {
     list-style-type: none;
     margin: 0;
+    padding: 0;
 }
