@@ -70,7 +70,7 @@ button {
     background-color: var(--yellow);
 }
 
-.title {
+#title {
     font-family: 'Potta One', cursive;
     font-size: 45px;
     display: flex;
