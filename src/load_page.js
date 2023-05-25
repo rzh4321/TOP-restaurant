@@ -2,7 +2,6 @@ export default function load_page() {
     let header = document.createElement('div')
     let home_btn = document.createElement('button');
     home_btn.id = 'home';
-    home_btn.innerHTML = `Home <img id="dripping" src="https://eckben.github.io/bearysBreakfastBar/img/dripping.png" alt="">`;
     let menu_btn = document.createElement('button');
     menu_btn.id = 'menu';
     menu_btn.textContent = 'Menu';
