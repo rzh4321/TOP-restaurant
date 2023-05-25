@@ -1,6 +1,6 @@
 export default function load_menu() {
     let menu = document.getElementById('menu');
-    menu.classList.add('active');
+    menu.innerHTML = `Menu <img id="dripping" src="https://eckben.github.io/bearysBreakfastBar/img/dripping.png" alt="">`;
     let first_bee = document.querySelector('img.icon');
     first_bee.insertAdjacentText('afterend', "Beary's Breakfast Bar");
     let main = document.querySelector('.main');

@@ -1,7 +1,6 @@
 export default function load_home() {
-    let home_btn = document.getElementById('home');
-    home_btn.innerHTML = `Home <img id="dripping" src="https://eckben.github.io/bearysBreakfastBar/img/dripping.png" alt="">`;
-    let first_bee = document.querySelector('img.icon');
+    let home = document.getElementById('home');
+    home.insertAdjacentHTML('beforeend', `<img id="dripping" src="https://eckben.github.io/bearysBreakfastBar/img/dripping.png" alt="">`);    let first_bee = document.querySelector('img.icon');
     first_bee.insertAdjacentText('afterend', "Beary's Breakfast Bar");
     let main = document.querySelector('.main');
     main.insertAdjacentHTML('beforeend', `    <div class="desc card">

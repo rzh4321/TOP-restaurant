@@ -18,7 +18,9 @@ home.addEventListener('click', () => {
         }
         home.classList.add('active');
         menu.classList.remove('active');
+        menu.children[0].remove();
         contact.classList.remove('active');
+        contact.children[0].remove();
         load_home();
     }
 })
