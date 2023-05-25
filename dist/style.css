@@ -136,3 +136,14 @@ ul {
 button.active {
     cursor: default;
 }
+
+.price-photo {
+    display: flex;
+    gap: 60px;
+}
+
+.price-photo img {
+    height: 300px;
+    width: 250px;
+    border-radius: 20px;
+}
