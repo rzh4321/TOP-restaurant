@@ -13,16 +13,31 @@ let contact = document.getElementById('contact');
 home.classList.add('active');
 home.addEventListener('click', () => {
     if (!home.classList.contains('active')) {
-        while (main.childNodes.length != 1) {
-            main.childNodes[main.childNodes.length-1].remove();
-        }
         home.classList.add('active');
-        menu.classList.remove('active');
-        menu.children[0].remove();
-        contact.classList.remove('active');
-        contact.children[0].remove();
-        title.childNodes[1].remove();
-
+        cleanup(home);
         load_home();
     }
 })
+
+menu.addEventListener('click', () => {
+    if (!menu.classList.contains('active')) {
+        menu.classList.add('active');
+        cleanup(menu);
+        load_menu();
+    }
+})
+
+function cleanup(btn) {
+    while (main.childNodes.length != 1) {
+        main.childNodes[main.childNodes.length-1].remove();
+    }
+    title.childNodes[1].remove();
+    let btns = [home, menu, contact];
+    for (let b of btns) {
+        if (b != btn) {
+            b.classList.remove('active');
+            if (b.children[0] != undefined)
+                b.children[0].remove();
+        }
+    }
+}
