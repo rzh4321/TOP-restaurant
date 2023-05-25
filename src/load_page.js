@@ -23,7 +23,6 @@ export default function load_page() {
     title.id = 'title';
     main.append(title);
     title.innerHTML = `<img class="icon" style="top: -20px; right: 10px;" src="https://eckben.github.io/bearysBreakfastBar/img/bee.svg" alt="">
-    Beary's Breakfast Bar
     <img class="icon" style="position: relative; left: 10px; top: 20px; transform: rotate(-240deg);" src="https://eckben.github.io/bearysBreakfastBar/img/bee.svg" alt="">`;
 
 //     container.innerHTML = `<div class="main">
