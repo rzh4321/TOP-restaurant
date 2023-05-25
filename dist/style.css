@@ -4,6 +4,9 @@ body {
     display: flex;
     flex-direction: column;
     gap: 20px;
+    --bg-color: #ffde73;
+    --yellow: #FFC60B;
+    --border-color: #c16a08;
 }
 
 .header {
@@ -11,7 +14,15 @@ body {
     justify-content: center;
     align-items: center;
     height: 70px;
-    background-color: orange;
+    background-color: var(--bg-color);
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 70px;
+    background-color: var(--bg-color);
 }
 
 button {
@@ -29,7 +40,7 @@ button {
     justify-content: space-around;
     align-items: center;
     gap: 30px;
-    background-color: orange;
+    background-color: var(--bg-color);
     padding: 50px;
     width:900px;
 }
@@ -40,9 +51,10 @@ button {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    border: 5px solid red;
+    border: 5px solid var(--border-color);
     padding: 30px;
     width: 450px;
+    background-color: var(--yellow);
 }
 
 .title {
@@ -52,13 +64,13 @@ button {
     align-items: center;
     flex-direction: row;
     padding: 30px;
-    border: 5px solid red;
+    border: 5px solid var(--border-color);
     border-radius: 30%;
+    background-color: var(--yellow);
 }
 
 .icon {
-    height: 40px;
-    margin: 10px;
+    height: 60px;
 }
 
 
