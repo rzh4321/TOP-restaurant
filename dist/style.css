@@ -17,6 +17,7 @@ body {
     align-items: flex-end;
     height: 65px;
     background-color: var(--bg-color);
+    gap: 20px;
 }
 
 .footer {
@@ -29,6 +30,9 @@ body {
 
 button {
     display: flex;
+    position: relative;
+    width: 100px;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     font-size: 18px;
@@ -37,7 +41,7 @@ button {
     border-radius: 10%;
     border-bottom-left-radius: 0%;
     border-bottom-right-radius: 0%;
-    background-color: var(--border-color);
+    background-color: rgb(236,164,59);
     border: 1px solid black;
     border-bottom: none;
     font-family: 'Yusei Magic', sans-serif;
@@ -106,4 +110,9 @@ ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
+}
+
+#dripping {
+    position: absolute;
+    top: 62px;
 }
