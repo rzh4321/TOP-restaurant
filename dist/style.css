@@ -31,7 +31,7 @@ button {
     gap: 30px;
     background-color: orange;
     padding: 50px;
-    width: 700px;
+    width:900px;
 }
 
 .card {
@@ -41,10 +41,19 @@ button {
     align-items: center;
     justify-content: center;
     border: 5px solid red;
+    padding: 30px;
+    width: 450px;
 }
 
 .title {
     font-size: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    padding: 30px;
+    border: 5px solid red;
+    border-radius: 30%;
 }
 
 .icon {
@@ -52,15 +61,14 @@ button {
     margin: 10px;
 }
 
-.title.card {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row;
-}
 
 .container {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.desc {
+    position: relative;
+    margin-top: 60px;
 }
