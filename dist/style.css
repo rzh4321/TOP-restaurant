@@ -59,6 +59,7 @@ button {
 }
 
 .card {
+    position: relative;
     border-radius: 30%;
     display: flex;
     flex-direction: column;
@@ -146,4 +147,12 @@ button.active {
     height: 300px;
     width: 250px;
     border-radius: 20px;
+}
+
+.contact {
+    height: 100px;
+    border-radius: 20px;
+    position: absolute;
+    right: 80px;
+    top: 30px;
 }

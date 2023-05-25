@@ -1,6 +1,7 @@
 import load_page from "./load_page.js";
 import load_home from "./home.js";
 import load_menu from "./menu.js";
+import load_contact from "./contact.js";
 
 load_page();
 load_home();
@@ -24,6 +25,14 @@ menu.addEventListener('click', () => {
         menu.classList.add('active');
         cleanup(menu);
         load_menu();
+    }
+})
+
+contact.addEventListener('click', () => {
+    if (!contact.classList.contains('active')) {
+        contact.classList.add('active');
+        cleanup(contact);
+        load_contact();
     }
 })
 
