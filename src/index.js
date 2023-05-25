@@ -21,6 +21,8 @@ home.addEventListener('click', () => {
         menu.children[0].remove();
         contact.classList.remove('active');
         contact.children[0].remove();
+        title.childNodes[1].remove();
+
         load_home();
     }
 })
